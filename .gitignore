@@ -1,0 +1,30 @@
+# Environment variables - NEVER push this
+.env
+*.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Data files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
