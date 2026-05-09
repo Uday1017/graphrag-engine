@@ -1,4 +1,7 @@
 from pydantic_settings import BaseSettings
+from pathlib import Path
+
+ENV_PATH = Path(__file__).parent.parent / ".env"
 
 class Settings(BaseSettings):
     # LLMs
@@ -23,6 +26,6 @@ class Settings(BaseSettings):
     top_k_retrieval: int = 10
 
     class Config:
-        env_file = ".env"
+        env_file = str(ENV_PATH)
 
 settings = Settings()
