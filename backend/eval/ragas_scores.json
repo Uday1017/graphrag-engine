@@ -1,0 +1,57 @@
+{
+  "faithfulness": 0.785,
+  "answer_relevancy": 0.765,
+  "total_queries": 10,
+  "individual": [
+    {
+      "query": "What is retrieval augmented generation?",
+      "faithfulness": 0.95,
+      "relevancy": 0.85
+    },
+    {
+      "query": "How do transformers use attention mechanisms?",
+      "faithfulness": 0.85,
+      "relevancy": 0.85
+    },
+    {
+      "query": "What are the challenges in training large language models?",
+      "faithfulness": 0.85,
+      "relevancy": 0.85
+    },
+    {
+      "query": "How do diffusion models generate images?",
+      "faithfulness": 0.0,
+      "relevancy": 0.85
+    },
+    {
+      "query": "What is the role of reinforcement learning in LLMs?",
+      "faithfulness": 0.85,
+      "relevancy": 0.85
+    },
+    {
+      "query": "Explain the concept of fine-tuning in deep learning",
+      "faithfulness": 0.85,
+      "relevancy": 0.85
+    },
+    {
+      "query": "What are graph neural networks used for?",
+      "faithfulness": 0.85,
+      "relevancy": 0.85
+    },
+    {
+      "query": "How does BERT differ from GPT architectures?",
+      "faithfulness": 0.85,
+      "relevancy": 0.0
+    },
+    {
+      "query": "What is prompt engineering?",
+      "faithfulness": 0.95,
+      "relevancy": 0.85
+    },
+    {
+      "query": "How do multimodal models work?",
+      "faithfulness": 0.85,
+      "relevancy": 0.85
+    }
+  ]
+}
