@@ -2,8 +2,6 @@
 
 A production-grade question-answering system over research papers. Combines semantic vector search with knowledge graph traversal, orchestrates multiple LLMs to generate answers, and automatically evaluates every response — built entirely on free-tier infrastructure.
 
-**Live demo** → [graphrag-engine.vercel.app](https://graphrag-engine.vercel.app) &nbsp;|&nbsp; **API docs** → [graphrag-engine.railway.app/docs](https://graphrag-engine.railway.app/docs)
-
 ---
 
 ## What it does
